@@ -94,7 +94,7 @@ registerGeoLocate(map)
 function registerWFSReadAndWriteLayer(mapInstance, toc) {
      // Settings - These need to agree with the definition of the WFS layer in Geoserver
      var namespace_prefix = "geo1007";
-     var namespace_uri = "http://all.kinds.of.data";
+     var namespace_uri = "https://varioscale.bk.tudelft.nl";
      var server_url = "http://localhost:8080"
      var layer_name = "pois"
      var geom_column_name = "geom"
